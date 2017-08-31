@@ -111,6 +111,96 @@
   }
 </script>
 
+<style>
+/* roboto-300 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('/static/fonts/roboto-v16-latin-300.eot'); /* IE9 Compat Modes */
+    src: local('Roboto Light'), local('Roboto-Light'),
+        url('/static/fonts/roboto-v16-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('/static/fonts/roboto-v16-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+        url('/static/fonts/roboto-v16-latin-300.woff') format('woff'), /* Modern Browsers */
+        url('/static/fonts/roboto-v16-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('/static/fonts/roboto-v16-latin-300.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-regular - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/static/fonts/roboto-v16-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Roboto'), local('Roboto-Regular'),
+        url('/static/fonts/roboto-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('/static/fonts/roboto-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('/static/fonts/roboto-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+        url('/static/fonts/roboto-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('/static/fonts/roboto-v16-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-500 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/static/fonts/roboto-v16-latin-500.eot'); /* IE9 Compat Modes */
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+        url('/static/fonts/roboto-v16-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('/static/fonts/roboto-v16-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+        url('/static/fonts/roboto-v16-latin-500.woff') format('woff'), /* Modern Browsers */
+        url('/static/fonts/roboto-v16-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('/static/fonts/roboto-v16-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/static/fonts/roboto-v16-latin-700.eot'); /* IE9 Compat Modes */
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+        url('/static/fonts/roboto-v16-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('/static/fonts/roboto-v16-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+        url('/static/fonts/roboto-v16-latin-700.woff') format('woff'), /* Modern Browsers */
+        url('/static/fonts/roboto-v16-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('/static/fonts/roboto-v16-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+
+  @font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/static/fonts/MaterialIcons-Regular.eot'); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url('/static/fonts/MaterialIcons-Regular.woff2') format('woff2'),
+      url('/static/fonts/MaterialIcons-Regular.woff') format('woff'),
+      url('/static/fonts/MaterialIcons-Regular.ttf') format('truetype');
+  }
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+</style>
 <style lang="stylus">
-  @import './stylus/main'
+  @import './assets/stylus/main'
 </style>
