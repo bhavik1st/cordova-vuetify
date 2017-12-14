@@ -23,6 +23,6 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 
 # release signed app
-cordova build android --release -- --keystore="yourfile.jks" --storePassword=yourpassword --alias=hawari --storeType=jks
+cordova build android --release -- --keystore="yourfile.jks" --storePassword=yourpassword --alias=youralias --storeType=jks
 
 
